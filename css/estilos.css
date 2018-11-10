@@ -1,0 +1,391 @@
+
+@media (min-width:900px){
+
+  body{
+    background-color: black;
+    font-family: Dancing Script;
+  }
+  #contenido{
+    width: 80%;
+    margin: 0 auto;
+    }
+
+  header{
+    background-color: #5b7989;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-radius:10px 10px 0 0;
+  }
+  h1{
+    text-align: left;
+    text-shadow: 2px 2px #02010a;
+  }
+   #menu{
+    color: white;
+  }
+  nav{
+    text-align: right;
+  }
+  div #foto1{
+    text-align: center;
+  }
+
+  #foto1{
+    background-color: #82c3a6;
+  }
+  #foto1  img{
+    margin: 20px;
+    width: 80%;
+  }
+  #foto2 img{
+    margin: 20px;
+    width: 80%;
+  }
+  #foto3 img{
+    margin: 20px;
+    width: 80%;
+  }
+
+  .contenedor{
+    border: 1px solid #2c3e50;
+    margin: auto;
+    display: block;
+    background-color: #d5c75f;
+    display:-webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+  .pie{
+    margin: auto;
+    display: block;
+    border-radius: 0 0 10px 10px;
+    background-color: #c6d5c5;
+    display:-webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+ #columna1{
+    margin-left: 25px;
+    width: 25%;
+  }
+  #columna2{
+    width: 25%;
+  }
+  #columna3{
+    width: 25%;
+  }
+  #columna4{
+      width: 25%;
+  }
+  #redes{
+    width: 7%;
+  }
+  #foto2 img:hover{
+    border: 2px solid;
+    box-shadow: 2px 2px 2px #82c3a6;
+    transform: rotate(10deg);
+  }
+  #foto3 img:hover{
+    border: 2px solid;
+    box-shadow: 2px 2px 2px #82c3a6;
+    transform: translate(5px, -20px);
+  }
+  /** inicia el CSS de paisajes para mas 900px*/
+  .contenedorpaisaje{
+    margin: auto;
+    display: block;
+    background-color: #d5c75f;
+    display:-webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+  .contenedorpaisaje2{
+    margin: auto;
+    display: block;
+    background-color: #d5c75f;
+    display:-webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+   #paisaje1 img{
+    margin: 20px;
+    width: 80%;
+    -webkit-filter:blur(10px);
+    filter: blur(10px);
+  }
+  #paisaje2 img{
+   margin: 20px;
+   width: 80%;
+   -webkit-filter:grayscale(100%);
+   filter: grayscale(100%);
+ }
+ #paisaje3 img{
+  margin: 20px;
+  width: 80%;
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+#paisaje4 img{
+ margin: 20px;
+ width: 80%;
+ -webkit-filter:grayscale(100%);
+ filter: grayscale(100%);
+}
+#paisaje5 img{
+margin: 20px;
+width: 80%;
+}
+#paisaje6 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+  /** termina el CSS de paisajes para mas 900px*/
+
+  /** inicia el CSS de retratos para masde 900px*/
+  .contenedorretrato{
+    margin: auto;
+    display: block;
+    background-color: #d5c75f;
+    display:-webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+  .contenedorretrato2{
+    margin: auto;
+    display: block;
+    background-color: #d5c75f;
+    display:-webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+   #retrato1 img{
+    margin: 20px;
+    width: 80%;
+    -webkit-filter:blur(10px);
+    filter: blur(10px);
+  }
+  #retrato2 img{
+   margin: 20px;
+   width: 80%;
+   -webkit-filter:grayscale(100%);
+   filter: grayscale(100%);
+ }
+ #retrato3 img{
+  margin: 20px;
+  width: 80%;
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+#retrato4 img{
+ margin: 20px;
+ width: 80%;
+ -webkit-filter:grayscale(100%);
+ filter: grayscale(100%);
+}
+#retrato5 img{
+margin: 20px;
+width: 80%;
+}
+#retrato6 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+}
+/** termina el CSS de retratos para mas 900px*/
+@media (max-width:899px){
+  body{
+    background-color: black;
+    font-family: Dancing Script;
+  }
+  header{
+    background-color: #5b7989;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-radius:10px 10px 0 0;
+  }
+  h1{
+    text-align: left;
+    text-shadow: 2px 2px #02010a;
+  }
+   #menu{
+    color: white;
+  }
+  nav{
+    text-align: right;
+  }
+  div #foto1{
+    text-align: center;
+  }
+  #foto1{
+    background-color: #82c3a6;
+  }
+  #foto1  img{
+    margin: 20px;
+    width: 80%;
+  }
+.contenedor{
+  border: 1px solid #2c3e50;
+  background-color: #d5c75f;
+  text-align: center;
+}
+ #foto2 img{
+  width: 80%;
+  margin: 20px;
+}
+#foto3 img{
+ width: 80%;
+ margin: 20px;
+}
+    .pie{
+      text-align: center;
+      margin: auto;
+      display: block;
+      border-radius: 0 0 10px 10px;
+      background-color: #c6d5c5;
+      display:-webkit-flex;
+      display: ms-flexbox;
+      display: flex;
+      flex-flow: column;
+    }
+  #columna1{
+     text-align: center;
+
+   }
+   #columna2{
+     text-align: center;
+   }
+   #columna3{
+    text-align: center;
+   }
+   #columna4{
+      text-align: center;
+   }
+   #redes{
+    width: 7%;
+   }
+   #foto2 img:hover{
+     border: 2px solid;
+     box-shadow: 2px 2px 2px #82c3a6;
+     transform: rotate(10deg);
+   }
+   #foto3 img:hover{
+     border: 2px solid;
+     box-shadow: 2px 2px 2px #82c3a6;
+     transform: translate(5px, -20px);
+   }
+
+/** inicia el CSS de paisajes para menor a 900px*/
+.contenedorpaisaje{
+  text-align: center;
+  margin: auto;
+  display: block;
+  background-color: #d5c75f;
+}
+.contenedorpaisaje2{
+  text-align: center;
+  margin: auto;
+  display: block;
+  background-color: #d5c75f;
+}
+#paisaje1 img{
+ margin: 20px;
+ width: 80%;
+ -webkit-filter:blur(10px);
+ filter: blur(10px);
+}
+#paisaje2 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+#paisaje3 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:sepia(90%);
+filter: sepia(90%);
+}
+#paisaje4 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+#paisaje5 img{
+margin: 20px;
+width: 80%;
+}
+#paisaje6 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+/** termina CSS de paisajes para menores a 900px*/
+
+
+/** inicia el CSS de retratos para menor a 900px*/
+.contenedorretrato{
+  text-align: center;
+  margin: auto;
+  display: block;
+  background-color: #d5c75f;
+}
+.contenedorretrato2{
+  text-align: center;
+  margin: auto;
+  display: block;
+  background-color: #d5c75f;
+}
+#retrato1 img{
+ margin: 20px;
+ width: 80%;
+ -webkit-filter:blur(10px);
+ filter: blur(10px);
+}
+#retrato2 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+#retrato3 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:sepia(90%);
+filter: sepia(90%);
+}
+#retrato4 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+#retrato5 img{
+margin: 20px;
+width: 80%;
+}
+#retrato6 img{
+margin: 20px;
+width: 80%;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+}
+/** termina el CSS de retratos para menor a 900px*/
